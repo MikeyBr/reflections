@@ -1,2 +1,10 @@
 Q - What happens when you initialize a repository? Why do you need to do it?
     A hidden folder containing metadata about the files in the repository is created. 
+	
+Q - How is the staging area different from the working directory and 
+    the repository? What value do you think it offers?	
+A - The staging area is a selective snapshot of the working directory, allows you to
+    configure the commit before finalising it with the commit.
+
+	
+	
