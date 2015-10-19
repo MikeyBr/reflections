@@ -1,0 +1,2 @@
+Q - When would you want to use a remote repository rather than keeping all your work local?
+A - When collaborating with other developers and as a secure off site backup.
