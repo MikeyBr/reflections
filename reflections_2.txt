@@ -5,6 +5,26 @@ Q - How is the staging area different from the working directory and
     the repository? What value do you think it offers?	
 A - The staging area is a selective snapshot of the working directory, allows you to
     configure the commit before finalising it with the commit.
+	
+Q - How can you use the staging area to make sure you have one commit per logical change?
+A - Add only files changed for the change to the staging area ......  MORE .....
+
+Q - What are some situations when branches would be helpful in keeping 
+    your history organized? How would branches help?
+A - Branches are useful for bug fixes, new features and expirements. Keeping
+    the Master branch 'clean' with only stable, reviewed and tested features on 
+    the master branch
+
+Q - How do the diagrams help you visualize the branch structure?
+A - A picture is worth a thousand words - esp in this case	
+
+Q - What is the result of merging two branches together? Why do we represent 
+    it in the diagram the way we do?
+A - The changes from both branches are consolidated.	
+
+Q - What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A - Automatic merging will contain all changes from each contributor but the meaning
+    of the logic could be broken.
 
 	
 	
