@@ -5,3 +5,9 @@ Q - Why might you want to always pull changes manually rather than having Git au
     stay up-to-date with your remote repository?
 A - It would be impossible developing with changes magically appearing in the file from other
     contributors as you develop.
+
+Q - Describe the differences between forks, clones, and branches. When would 
+	    you use one instead of another?
+A - Fork is local copy on GIT hub, Clone is copy either local or from Git Hub to local
+    Branch is a label point within a repositry. 
+    ... Discuss use 	
