@@ -1,0 +1,52 @@
+Q - How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A - Knowing there is a bug in the new version and not the old, I could focus on the changes 
+    instead of reading the complete file.
+    
+Q - How could having easy access to the entire history of a file make you a more efficient 
+    programmer in the long term?
+A - A more adventurous programmer, rather than a better program. Not afraid to try new things 
+    if going back to a previous 'un broken' version of code is eazy. So I'm saying a more 
+    adventurous programmer is a better programmer. ... Is this true? Reflect ....
+    
+Q - How can you use the commands git log and git diff to view the history of files?
+    Git log shows a history of all commits and Git diff will show the history of commits.
+    Its feasible to use git log & diff with a grep command to produce an history      
+
+Q - How might using version control make you more confident to make changes that could break something?
+    Simple, I know I can get back to previous versions easily and I can 'diff' between working and
+    non working versions. To be effective, changes between versions should be small but be testable.
+    
+Q - Now that you have your workspace set up, what do you want to try using Git for?
+    Android course, sharing coursework and backup / version control of projects
+
+
+BMB010@ZUK02-7379 MINGW64 /d/Udacity/version_control
+$ git clone https://github.com/udacity/androids.git
+Cloning into 'androids'...
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com':
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/udacity/androids.git/'
+
+
+ 
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.name=
+user.email=
+core.autocrlf=true
+core.excludesfile=C:\Users\bmb010\Documents\gitignore_global.txt
+http.proxy=http://wwwgate0.mot.com:1080
+    
+$ git config --unset http.sslcainfo
+    
+             
