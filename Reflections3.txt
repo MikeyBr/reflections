@@ -10,4 +10,12 @@ Q - Describe the differences between forks, clones, and branches. When would
 	    you use one instead of another?
 A - Fork is local copy on GIT hub, Clone is copy either local or from Git Hub to local
     Branch is a label point within a repositry. 
-    ... Discuss use 	
+    ... Discuss use 
+
+Q - What is the benefit of having a copy of the last known state of the remote stored locally?
+A - Working off line with no Internet access, means IT type problems will have minimal effect on productivity	
+
+Q - How would you collaborate without using Git or GitHub? What would be easier, and what          would be harder?
+
+A - Still possible to colabborate using tools like google docs & drive - but much better 
+control possible with GIT
