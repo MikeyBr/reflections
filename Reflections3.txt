@@ -19,3 +19,7 @@ Q - How would you collaborate without using Git or GitHub? What would be easier,
 
 A - Still possible to colabborate using tools like google docs & drive - but much better 
 control possible with GIT
+
+Q - When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A - A common work flow reserves the master branch for tested / working code and branches for
+un tested / reviewed work. This means you will always be able to obtain the latest stable build from the master branch. 
